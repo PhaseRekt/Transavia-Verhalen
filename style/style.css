@@ -1,0 +1,192 @@
+/* header */
+
+header {
+    background-color: #fff;
+    color: #00d66c;
+    font-family: NexaBold;
+    margin: -.5em;
+}
+
+img {
+    height: 2em;
+    width: auto;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/* body */
+
+body {
+    background-color: #00d66c;
+    color: white;
+    font-family: NexaLight;
+    font-size: 1em;
+}
+
+body > h1 {
+    font-size: 1em;
+    margin-bottom: .25em;
+}
+
+section {
+    background-color: white;
+    border-radius: .75rem;
+    padding: .5em;
+}
+
+section > h2 {
+    color: #00d66c;
+    font-size: 1.5em;
+}
+
+section > h3 {
+    color: black;
+    font-size: 1em;
+}
+
+section > p {
+    color: black;
+}
+
+section#daily {
+    border-radius: 0px;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    color: #2800a0;
+    background-color: #f3e5d8;
+}
+
+section#daily > h2 {
+    color: #2800a0;
+}
+
+section#daily > h3 {
+    color: #2800a0;
+}
+
+section#daily > p {
+    color: #606060;
+}
+
+section + h1 + section {
+    background-color: transparent;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+section > img {
+    height: auto;
+    width: 100%;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    margin-left: -.5em;
+    margin-top: -.5em;
+}
+
+section + h1 + section > h2 {
+    font-size: 1em;
+    background-color: white;
+    border-radius: .75rem;
+    display: inline-block;
+    height: 12em;
+    width: 9em;
+    padding: 0.5em;
+    margin: 0px;
+    color: white;
+    background: url(../images/zombaay.jpg);
+    background-size: cover;
+}
+
+section + h1 + section > h2 + h2 {
+    background: url(../images/9cc59b8f5a10d6698b73b531da034920.jpg);
+    background-size: cover;
+}
+
+section + h1 + section > h2 + h2 + h2 {
+    background: url(../images/c9a0607362df45195286f350834779d0.jpg);
+    background-size: cover;
+}
+
+body > h3 {
+    background-color: #fff;
+    color: #2800a0;
+    text-align: center;
+    border-radius: 1.25em;
+    margin: 0.5em;
+    padding: .4375em 1.5em .5625em;
+
+}
+
+body > div {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+article {
+    background-color: white;
+    color: black;
+    border-radius: .75rem;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    width: 11em;
+    height: 18em;
+    display: inline-flex;
+    white-space: initial;
+    flex-direction: column;
+    margin-right: .5em;
+}
+
+article > img {
+    height: 10em;
+    width: auto;
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+    margin: -.5em;
+}
+
+
+article > h2 {
+    margin-bottom: -.5em;
+    background-color: white;
+}
+
+article > p {
+    background-color: white;
+}
+
+h3 + section {
+    margin-bottom: 0.5em;
+}
+
+/* footer */
+
+footer {
+    color: #2800a0;
+    background-color: #f3e5d8;
+}
+
+footer > div > li {
+    display: inline;
+}
+
+/*fonts*/
+
+@font-face {
+    font-family: "NexaBold";
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url("https://www.transavia.com/static/fonts/Nexa_XBold-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "NexaLight";
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url("https://www.transavia.com/static/fonts/Nexa_Regular-webfont.woff2") format("woff2");
+}
