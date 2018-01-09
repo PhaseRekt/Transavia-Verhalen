@@ -5,6 +5,12 @@ header {
     color: #00d66c;
     font-family: NexaBold;
     margin: -.5em;
+    box-shadow: 0 .3125em .625em 0 rgba(0, 0, 0, .15);
+    padding: .5em 1em;
+    border-bottom: .0625rem solid #ccc;
+    display: inline-flex;
+    width: 100%;
+    padding-right: 0;
 }
 
 img {
@@ -13,7 +19,8 @@ img {
 }
 
 nav li {
-    display: inline-block;
+    list-style-type: none;
+    display: inline-flex;
 }
 
 /* body */
@@ -25,29 +32,52 @@ body {
     font-size: 1em;
 }
 
+p {
+    line-height: 1.5;
+}
+
 body > h1 {
-    font-size: 1em;
+    font-size: 2.375rem;
     margin-bottom: .25em;
+    font-family: NexaBold;
+    background-color: white;
+    margin: -.5rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    color: #00d66c;
+}
+
+header + h1 {
+    margin: 0 -.5rem;
+    padding: .5rem;
+    margin-top: .5rem;
+    padding-top: 0;
 }
 
 section {
     background-color: white;
     border-radius: .75rem;
-    padding: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
 }
 
 section > h2 {
     color: #00d66c;
     font-size: 1.5em;
+    margin: 1rem;
+    margin-bottom: .25rem;
+    margin-top: .75rem;
 }
 
 section > h3 {
     color: black;
     font-size: 1em;
+    margin: .5rem;
 }
 
 section > p {
     color: black;
+    margin: 1rem;
 }
 
 section#daily {
@@ -56,18 +86,30 @@ section#daily {
     margin-right: -.5em;
     color: #2800a0;
     background-color: #f3e5d8;
+    padding-top: 0.25rem;
 }
 
 section#daily > h2 {
     color: #2800a0;
+    font-family: NexaBold;
+    font-size: 2.375rem;
 }
 
 section#daily > h3 {
     color: #2800a0;
+    margin: 1rem;
+    margin-top: 0;
 }
 
 section#daily > p {
     color: #606060;
+}
+
+section#daily + h1 + section {
+    background: white;
+    border-radius: 0;
+    margin: -.5rem;
+    padding: 1rem .5rem;
 }
 
 section + h1 + section {
@@ -75,6 +117,7 @@ section + h1 + section {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+    text-align: bottom;
 }
 
 section > img {
@@ -82,20 +125,21 @@ section > img {
     width: 100%;
     border-top-left-radius: .75rem;
     border-top-right-radius: .75rem;
-    margin-left: -.5em;
     margin-top: -.5em;
 }
 
 section + h1 + section > h2 {
-    font-size: 1em;
+    font-family: NexaBold;
     background-color: white;
     border-radius: .75rem;
     display: inline-block;
-    height: 12em;
-    width: 9em;
-    padding: 0.5em;
-    margin: 0px;
-    color: white;
+    font-size: 1rem;
+    text-align: bottom;
+    height: 12rem;
+    width: 9rem;
+    padding: 0.5rem;
+    margin: 0 0.25rem 0rem .25rem;
+    color: #2800a0;
     background: url(../images/zombaay.jpg);
     background-size: cover;
 }
@@ -108,16 +152,23 @@ section + h1 + section > h2 + h2 {
 section + h1 + section > h2 + h2 + h2 {
     background: url(../images/c9a0607362df45195286f350834779d0.jpg);
     background-size: cover;
+    margin-right: .5rem;
 }
 
 body > h3 {
-    background-color: #fff;
-    color: #2800a0;
+    background-color: #ff3268;
+    color: #fff;
     text-align: center;
     border-radius: 1.25em;
     margin: 0.5em;
+    margin-top: 1rem;
     padding: .4375em 1.5em .5625em;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+}
 
+body > h3 + h3 {
+    background-color: #2800a0;
+    box-shadow: inset 0 -.1875em .0625em #120145;
 }
 
 body > div {
@@ -128,7 +179,7 @@ body > div {
 
 article {
     background-color: white;
-    color: black;
+    color: #606060;
     border-radius: .75rem;
     padding: 0.5em;
     margin-bottom: 0.5em;
@@ -138,6 +189,10 @@ article {
     white-space: initial;
     flex-direction: column;
     margin-right: .5em;
+}
+
+article + article + article {
+    margin-right: 0;
 }
 
 article > img {
@@ -167,6 +222,39 @@ h3 + section {
 footer {
     color: #2800a0;
     background-color: #f3e5d8;
+    margin: 0 -.5rem -.5rem -.5rem;
+    padding: 1rem .5rem;
+}
+
+footer > div {
+    text-align: center;
+}
+
+footer > div > div {
+    border-radius: 5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border: 0;
+    background-color: #2800a0;
+    margin: .25rem;
+    display: inline;
+}
+
+button {
+    border-radius: 5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border: 0;
+    background-color: #2800a0;
+    margin: .25rem;
+}
+
+button + button {
+    background-color: #ff3268;
+}
+
+button + button + button {
+    background-color: #00d66c;
 }
 
 footer > div > li {
