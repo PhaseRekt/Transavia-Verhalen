@@ -21,7 +21,6 @@ header {
     justify-content: space-between;
     grid-column-start: 1;
     grid-column-end: 4;
-    display: inline-block;
 }
 
 img {
@@ -36,14 +35,10 @@ header > img {
     padding: .5rem;
 }
 
-nav {
-    padding: .5rem;
-}
 
 nav li {
     list-style-type: none;
     display: inline-flex;
-    padding: .5em;
 }
 
 h1 {
@@ -82,7 +77,7 @@ input[type="dropdown"] {
     margin-left: 3em;
 }
 
-a {
+form > a {
     font-family: NexaBold;
     background-color: #ff3268;
     color: #fff;

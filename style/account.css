@@ -1,0 +1,132 @@
+body {
+    background-color: #00d66c;
+    color: white;
+    font-family: NexaLight;
+    font-size: 1em;
+}
+
+header {
+    background-color: #fff;
+    color: #00d66c;
+    font-family: NexaBold;
+    box-shadow: 0 .3125em .625em 0 rgba(0, 0, 0, .15);
+    padding-right: 1em;
+    border-bottom: .0625rem solid #ccc;
+    display: inline-flex;
+    width: 100%;
+    margin: -.5em;
+}
+
+header img {
+    height: 2em;
+    width: auto;
+    object-fit: cover;
+}
+
+header > a > img {
+    padding: .5rem;
+}
+
+nav {
+    padding: .5rem;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-flex;
+
+}
+
+section {
+    background-color: #ff3268;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    width: 100%;
+    margin-top: 1em;
+    border-radius: .75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: .75em;
+}
+
+section > img {
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    margin: .5rem 30%;
+    align-self: center;
+}
+
+section > h2 {
+    float: left;
+    width: 25%;
+}
+
+section > h2 + h2 {
+    float: right;
+    width: 25%;
+}
+
+article > h2 {
+    font-family: NexaBold;
+    margin-bottom: -.75em;
+}
+
+div {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+div > h3 {
+    display: inline-block;
+    width: 9em;
+    padding: 8em 0 2em .5rem;
+    background-image: url(../images/40.jpg);
+    object-fit: cover;
+    background-size: cover;
+    border-radius: .75rem;
+    margin-right: .5em;
+    margin-bottom: 0;
+}
+
+div > h3 + h3 {
+    background-image: url(../images/c9a0607362df45195286f350834779d0.jpg);
+}
+
+div > h3 + h3 + h3 {
+    background-image: url(../images/Frequencies2.jpg);
+}
+
+div > h3 + h3 + h3 + h3 {
+    background-image: url(../images/img-header-dragons-1600.jpg);
+}
+
+div > h3 + h3 + h3 + h3 + h3 {
+    background-image: url(../images/redes-fast-flux-623x425.jpg);
+}
+
+div > h3 + h3 + h3 + h3 + h3 + h3 {
+    background-image: url(../images/Stuffed-Animal-VACATION0616.jpg);
+}
+
+/*fonts*/
+
+@font-face {
+    font-family: "NexaBold";
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url("https://www.transavia.com/static/fonts/Nexa_XBold-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "NexaLight";
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url("https://www.transavia.com/static/fonts/Nexa_Regular-webfont.woff2") format("woff2");
+}
