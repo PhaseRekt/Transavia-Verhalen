@@ -20,6 +20,14 @@ img {
     object-fit: cover;
 }
 
+header > img {
+    padding: .5rem;
+}
+
+nav {
+    padding: .5rem;
+}
+
 nav li {
     list-style-type: none;
     display: inline-flex;
