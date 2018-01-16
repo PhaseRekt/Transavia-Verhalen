@@ -517,7 +517,8 @@ footer > ul > li {
         border-bottom-left-radius: .75rem;
     }
 
-    section#daily + section + section > h2 {
+    section#daily + section + section > h2,
+    section#daily + section + section > h2 > a {
         height: 2em;
         width: 100%;
         border-bottom: 1px gray;
