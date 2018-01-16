@@ -1,3 +1,27 @@
+header {
+    background-color: #fff;
+    color: #00d66c;
+    font-family: NexaBold;
+    margin: -.5em;
+    box-shadow: 0 .3125em .625em 0 rgba(0, 0, 0, .15);
+    padding: .5em 1em;
+    border-bottom: .0625rem solid #ccc;
+    display: inline-flex;
+    width: 100%;
+    padding-right: 0;
+}
+
+img {
+    height: 2em;
+    width: auto;
+    object-fit: cover;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-flex;
+}
+
 body {
     background-color: #00d66c;
     color: white;
@@ -6,13 +30,13 @@ body {
 }
 
 h1 {
-    padding-left: 1em;
+    padding-left: .5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    padding-left: 1em;
     color: #00d66c;
-    border-radius: 50px 50px 0px 0px;
+    border-radius: .75rem .75rem 0px 0px;
     background-color: white;
+    margin-top: 2em;
 }
 
 h1,
@@ -26,40 +50,20 @@ div p {
     padding-right: 1em;
 }
 
-nav {
-    display: inline-block;
-    padding: 1em;
-    background-color: white;
-    color: #00d66c;
-    font-size: 2em;
-    width: 100%;
-    font-family: NexaBold;
-}
-
-nav p {
-    color: #2800a0;
-    display: inline-block;
-    font-family: NexaLight;
-}
-
-nav li {
-    display: inline;
-    font-size: 0.5em;
-    font-family: NexaLight;
-}
 
 div {
     align-self: center;
     background-color: rgba(255, 255, 255, 0.75);
-    border-radius: 50px;
-
+    border-radius: .75rem;
 }
-
 
 form {
     color: black;
     padding-left: 1em;
     padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
 }
 
 input {
@@ -67,33 +71,56 @@ input {
     align-items: center;
 }
 
-#socialmedia {
+article {
     background-color: white;
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px .75rem .75rem;
     padding-left: 1em;
     padding-top: 0.5em;
     padding-bottom: 2em;
     padding-left: 1em;
 }
 
+article > h2 {
+    color: #00d66c;
+}
+
 /* Buttons */
 
-#facebook {
+button {
     background-color: #2800a0;
     box-shadow: inset 0 -.1875em .0625em #120145;
     color: #fff;
+    width: auto;
+    border: none;
+    border-radius: 1.25em;
+    padding: .4375em 1.5em .5625em;
+    margin: .5em;
 }
 
-#google {
-    background-color: white;
-    box-shadow: inset 0 -.1875em .0625rem #91a3b7;
-    color: black;
+form > a {
+    background-color: #ff3268;
+    color: white;
+    border: 0px;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    margin: 0;
+    padding: .4375em 1.5em .5625em;
+    position: relative;
+    border: 0;
+    line-height: 1.5;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 1.25em;
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    font-family: NexaBold;
+    width: 6em;
+    margin: .5em;
+    text-decoration: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
 }
 
-#twitter {
-    background-color: cyan;
-    box-shadow: inset 0 -.1875em .0625rem #008b8b;
-}
 
 input:not([type]),
 input[type="submit"] {
@@ -112,6 +139,8 @@ input[type="submit"] {
     min-height: 1.5rem;
     min-width: 1.5rem;
     font-family: NexaBold;
+    width: 12em;
+    margin: .5em;
 
 }
 
@@ -125,6 +154,7 @@ input[type="password"] {
     color: #606060;
     font-size: 1rem;
     border-radius: .5rem;
+    width: 15em;
 }
 
 /*fonts*/
