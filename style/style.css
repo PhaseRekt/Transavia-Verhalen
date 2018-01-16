@@ -537,7 +537,7 @@ footer > ul > li {
         margin: 0;
     }
 
-    section#daily + section + section > h2 + h2 + h2 + H2 {
+    section#daily + section + section > h2 + h2 + h2 + h2 {
         background: none;
         margin: 0;
     }

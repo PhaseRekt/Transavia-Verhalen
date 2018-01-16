@@ -1,3 +1,14 @@
+div.dot {
+    width: .5em;
+    height: .5em;
+    border-radius: 50%;
+    background-color: #ff3268;
+    position: absolute;
+    top: 1.5%;
+    right: 1.7%;
+    animation: newdot .75s;
+}
+
 header {
     background-color: #fff;
     color: #00d66c;
@@ -177,6 +188,28 @@ article > button {
 article > button:hover {
     background-color: #5e40b8;
     transition: .25s;
+}
+
+@keyframes newdot {
+    0% {
+        width: 5em;
+        height: 5em;
+    }
+
+    50% {
+        width: 3em;
+        height: 3em;
+    }
+
+    80% {
+        width: .125em;
+        height: .125em;
+    }
+
+    100% {
+        width: .5em;
+        height: .5em;
+    }
 }
 
 /*fonts*/
