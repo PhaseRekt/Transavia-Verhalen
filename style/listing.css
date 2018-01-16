@@ -9,10 +9,6 @@ div.dot {
     animation: newdot .75s;
 }
 
-li.sort {
-    font-size: 1.5em;
-    color: #2800a0;
-}
 
 header {
     background-color: #fff;

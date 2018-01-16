@@ -38,6 +38,62 @@ img.desktop {
     display: none;
 }
 
+div {
+    background-color: white;
+    border-radius: .75rem;
+}
+
+div > img {
+    width: 3em;
+    height: auto;
+    position: absolute;
+    top: 9%;
+    right: 1.7%;
+    display: none;
+}
+
+div > img + img {
+    top: 10%;
+    right: 5%;
+}
+
+img.full {
+    display: none;
+    background-image: url('../images/thumbfull.svg');
+    animation: new .5s;
+}
+
+img + img.full {
+    display: none;
+    background-image: url('../images/thumbfull.svg') scaleY(-1);
+}
+
+img.thumbup {
+    display: block;
+}
+
+img.thumbdown {
+    transform: scaleY(-1);
+    display: block;
+}
+
+@keyframes new {
+    0% {
+        width: 2em;
+        height: auto;
+    }
+
+    50% {
+        width: 8em;
+        height: auto;
+    }
+
+    100% {
+        width: 3em;
+        height: auto;
+    }
+}
+
 @media (min-width: 40em) {
 
     img.mobile,
