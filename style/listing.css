@@ -52,7 +52,7 @@ body {
     font-size: 1em;
     display: grid;
     grid-template-columns: 5.4% 40% 40% 13%;
-    grid-template-rows: 3.4rem 3em 18em 29em 40em 9.3em;
+    grid-template-rows: 3.4rem 3em 18em 90em 40em 9.3em;
     grid-row-gap: .5rem;
     grid-column-gap: .5rem;
     margin: 0;
@@ -146,10 +146,12 @@ section {
 section > h4 {
     background-image: url(../images/Frequencies2.jpg);
     color: white;
-    padding: 10em .5em .5em .5em;
-    margin: .5em;
-    width: 7em;
+    padding: 13em .5em .5em .5em;
+    margin: 1em;
+    width: 9em;
     border-radius: .75rem;
+    object-fit: cover;
+    background-size: cover;
 }
 
 section > ul {
@@ -163,11 +165,126 @@ section > ul > li {
     margin: 3em;
 }
 
+section > ul > li:first-of-type {
+    color: #ff3268;
+    transform: scale(1.5);
+}
+
 section > h4:hover {
     background-color: #606060;
-    background-image: none;
+    background-image: 50%;
     transition: .25s;
-    transform: scale(1.25);
+    transform: scale(1.125);
+}
+
+section > h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/40.jpg);
+}
+
+section > h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/c9a0607362df45195286f350834779d0.jpg);
+}
+
+section > h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/Stuffed-Animal-VACATION0616.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/photo-1503135935062-b7d1f5a0690f.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/37F60FD200000578-0-image-a-5_1473156426673.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/6088621-wallpaper-phone-hd.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/stars.JPG);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/i-think-its-time-for-a-new-phone-background-50-photos-20.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/traffic_lights.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/58429bb0999ef7c058342e412a6e8bde.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/5cd7c9c98eb92a1e13c09075c406aae1--iphone-backgrounds-phone-wallpapers.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/l2INmkB.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/Kp1e8fD.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/583148.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/wallpaper-htc-one-m9-quad-hd-1440-2560-356.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/727538673ef8a884113e5c134e9bf228--galaxy-wallpaper-samsung-s-wallpaper.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/70484ad951a3c4d5dfc785e118050e39.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/n1rc30B.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/artist-creates-astonishing-ubuntu-wallpapers-for-phones-and-tablets-501422-9.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/hU6nGBF.jpg.png);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/092ff429be2e0c412835c641a0798539.jpg);
+}
+
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4,
+section > h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 + h4 {
+    background-image: url(../images/phone-wallpapers-tumblr-003.jpg);
 }
 
 article > button {
