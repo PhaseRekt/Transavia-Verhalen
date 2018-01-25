@@ -47,14 +47,14 @@ div > img {
     width: 3em;
     height: auto;
     position: absolute;
-    top: 9%;
+    top: 5%;
     right: 1.7%;
     display: none;
 }
 
 div > img + img {
-    top: 10%;
-    right: 5%;
+    top: 6%;
+    right: 8%;
 }
 
 img.full {
