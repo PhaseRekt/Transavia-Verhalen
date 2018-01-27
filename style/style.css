@@ -43,13 +43,12 @@ p {
     line-height: 1.5;
 }
 
-body > h1 {
+div > h1 {
     font-size: 2.375rem;
     margin-bottom: .25em;
     font-family: NexaBold;
     background-color: white;
-    margin: -.5rem;
-    margin-bottom: .5rem;
+    margin: 0 -.5rem;
     padding: .5rem;
     color: #00d66c;
 }
@@ -239,7 +238,7 @@ article {
     display: inline-flex;
     white-space: initial;
     flex-direction: column;
-    margin-right: .5em;
+    margin-right: .3em;
 }
 
 article + article + article {
@@ -365,15 +364,18 @@ footer > ul > li {
     }
 
 
-
-    body > h1 {
-        color: white;
-        background-color: transparent;
-        font-family: NexaLight;
+    body > div {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
+    }
+
+
+    div > h1 {
+        color: white;
+        background-color: transparent;
+        font-family: NexaLight;
         font-size: 1.2em;
     }
 
@@ -446,6 +448,12 @@ footer > ul > li {
         margin: 0;
         overflow-x: hidden;
         overflow-y: hidden;
+        justify-content: center;
+        display: flex;
+    }
+
+    main > article {
+        margin: 0 1rem;
     }
 
 
@@ -584,10 +592,11 @@ footer > ul > li {
         justify-content: center;
     }
 
-    article {
+    main > article {
         height: 16em;
         width: 12em;
-        margin-right: .5em;
+        margin-right: .505em;
+        margin-left: 0;
     }
 
     article > img {
